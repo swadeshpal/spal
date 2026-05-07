@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swadesh Pal - Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Shared CSS (Keep exactly as in index.html) */
+        :root { --primary-color: #2c3e50; --secondary-color: #34495e; --accent-color: #3498db; --bg-color: #f8f9fa; --text-color: #333; --border-color: #e0e0e0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: var(--text-color); background-color: var(--bg-color); }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 30px; margin-bottom: 30px; margin-top: 20px; }
+        .profile-pic { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent-color); }
+        .header-info h1 { margin: 0 0 10px 0; color: var(--primary-color); font-size: 2.5em; }
+        .header-info h2 { margin: 0 0 15px 0; color: var(--secondary-color); font-size: 1.2em; font-weight: 500; }
+        .contact-info { list-style: none; padding: 0; margin: 0; } .contact-info li { margin-bottom: 8px; color: #555; } .contact-info i { color: var(--accent-color); width: 25px; }
+        .social-links { margin-top: 15px; } .social-links a { color: var(--primary-color); font-size: 1.5em; margin-right: 15px; transition: color 0.3s; } .social-links a:hover { color: var(--accent-color); }
+        section { background-color: white; padding: 30px 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        section h2 { color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px; }
+        h3 { color: var(--secondary-color); margin-top: 25px; margin-bottom: 10px; }
+        .nav-buttons { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; background: white; padding: 15px; border-radius: 10px; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .btn { display: inline-block; padding: 10px 20px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .btn:hover, .btn.active { background-color: var(--accent-color); }
+        footer { text-align: center; padding: 20px; color: #666; margin-top: 40px; border-top: 1px solid var(--border-color); }
+        
+        /* Timeline Specific CSS */
+        .timeline-item { margin-bottom: 20px; padding-left: 15px; border-left: 3px solid var(--accent-color); }
+        .timeline-item h4 { margin: 0 0 5px 0; color: var(--primary-color); }
+        .timeline-date { font-size: 0.9em; color: #7f8c8d; font-weight: bold; margin-bottom: 5px; }
+        @media (max-width: 768px) { header { flex-direction: column; text-align: center; } .nav-buttons { justify-content: center; } section { padding: 20px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="nav-buttons">
+        <a href="index.html" class="btn"><i class="fas fa-user"></i> Home</a>
+        <a href="experience.html" class="btn active"><i class="fas fa-briefcase"></i> Experience & Education</a>
+        <a href="research.html" class="btn"><i class="fas fa-microscope"></i> Research</a>
+        <a href="publications.html" class="btn"><i class="fas fa-book"></i> Publications</a>
+        <a href="presentations.html" class="btn"><i class="fas fa-chalkboard-teacher"></i> Presentations</a>
+      </div>
+
+    
+
+    <section>
+        <h2><i class="fas fa-briefcase"></i> Experience & Education</h2>
+        
+        <h3>Professional Experience</h3>
+        <div class="timeline-item">
+            <h4>Assistant Professor</h4>
+            <div class="timeline-date">Nov 2025 - Present | SRM University, Kattankulathur, India</div>
+            <p> </p>
+        </div>
+        <div class="timeline-item">
+            <h4>Postdoctoral Fellow</h4>
+            <div class="timeline-date">Oct 2021 - Aug 2025 | Wilfrid Laurier University, Waterloo, Canada</div>
+            <p>Mentor: Prof. R. Melnik</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Research Scientist</h4>
+            <div class="timeline-date">Jun 2021 - Oct 2021 | IIT Kanpur, India</div>
+            <p>Mentor: Prof. S. Ghorai</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Research Visit</h4>
+            <div class="timeline-date">Mar 2019 - Jun 2019 | University of Leicester, United Kingdom</div>
+            <p>Mentor: Prof. S. Petrovskii</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Contractual Lecturer</h4>
+            <div class="timeline-date">Jul 2013 - Dec 2014 | VSSUT Burla, India</div>
+        </div>
+
+        <h3>Education</h3>
+        <div class="timeline-item">
+            <h4>PhD (Mathematics)</h4>
+            <div class="timeline-date">Dec 2014 - Aug 2020 | Indian Institute of Technology Kanpur, India</div>
+            <p><strong>Thesis:</strong> Effects of Nonlocal Interaction on Spatio-Temporal Pattern Formation<br>
+            <strong>Supervisors:</strong> Prof. Saktipada Ghorai & Prof. Malay Banerjee</p>
+        </div>
+        <div class="timeline-item">
+            <h4>M.Sc (Mathematics)</h4>
+            <div class="timeline-date">Jul 2011 - Jun 2013 | Sambalpur University, India</div>
+        </div>
+        <div class="timeline-item">
+            <h4>B.Sc (Mathematics)</h4>
+            <div class="timeline-date">Jun 2008 - Jun 2011 | Jhargram Raj College, Vidyasagar University, India</div>
+        </div>
+
+        <h3>Fellowships & Awards</h3>
+        <ul>
+            <li>NBHM Post-Doctoral Fellowship, NBHM, India (Jan 2021)</li>
+            <li>Outstanding Ph.D. Thesis Award, IIT Kanpur, India (Oct 2020)</li>
+            <li>Newton-Bhabha Fellow (2018-19), British Council, United Kingdom (Oct 2018)</li>
+            <li>University Gold Medal (2013), Sambalpur University, India (Nov 2016)</li>
+            <li>Junior Research Fellowship, CSIR, India (Jan 2016)</li>
+            <li>INSPIRE Fellowship, DST, India (Jul 2014)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Swadesh Pal. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>

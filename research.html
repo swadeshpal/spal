@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swadesh Pal - Research</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Shared CSS */
+        :root { --primary-color: #2c3e50; --secondary-color: #34495e; --accent-color: #3498db; --bg-color: #f8f9fa; --text-color: #333; --border-color: #e0e0e0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: var(--text-color); background-color: var(--bg-color); }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 30px; margin-bottom: 30px; margin-top: 20px; }
+        .profile-pic { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent-color); }
+        .header-info h1 { margin: 0 0 10px 0; color: var(--primary-color); font-size: 2.5em; }
+        .header-info h2 { margin: 0 0 15px 0; color: var(--secondary-color); font-size: 1.2em; font-weight: 500; }
+        .contact-info { list-style: none; padding: 0; margin: 0; } .contact-info li { margin-bottom: 8px; color: #555; } .contact-info i { color: var(--accent-color); width: 25px; }
+        section { background-color: white; padding: 30px 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        section h2 { color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px; }
+        h3 { color: var(--secondary-color); margin-top: 25px; margin-bottom: 10px; font-size: 1.4em;}
+        .nav-buttons { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; background: white; padding: 15px; border-radius: 10px; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .btn { display: inline-block; padding: 10px 20px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .btn:hover, .btn.active { background-color: var(--accent-color); }
+        footer { text-align: center; padding: 20px; color: #666; margin-top: 40px; border-top: 1px solid var(--border-color); }
+        
+        /* Research Specific CSS */
+        .research-topic { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed var(--border-color); }
+        .research-topic:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .research-topic p { text-align: justify; }
+        .research-tags { margin-top: 10px; }
+        .tag { display: inline-block; background-color: #e8f4f8; color: var(--accent-color); padding: 5px 12px; border-radius: 20px; font-size: 0.85em; margin-right: 8px; margin-bottom: 8px; font-weight: bold; }
+        
+        @media (max-width: 768px) { header { flex-direction: column; text-align: center; } .nav-buttons { justify-content: center; } section { padding: 20px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="nav-buttons">
+        <a href="index.html" class="btn"><i class="fas fa-user"></i> Home</a>
+        <a href="experience.html" class="btn"><i class="fas fa-briefcase"></i> Experience & Education</a>
+        <a href="research.html" class="btn active"><i class="fas fa-microscope"></i> Research</a>
+        <a href="publications.html" class="btn"><i class="fas fa-book"></i> Publications</a>
+        <a href="presentations.html" class="btn"><i class="fas fa-chalkboard-teacher"></i> Presentations</a>
+      </div>
+
+
+    <section>
+        <h2><i class="fas fa-flask"></i> Research Overview</h2>
+        <p>My research focuses on the intersection of applied mathematics, computational biology, and complex systems. I utilize mathematical modeling, numerical analysis, and machine learning techniques to understand pattern formation, ecological dynamics, and bioneurological processes.</p>
+        
+        <div class="research-topic">
+            <h3><i class="fas fa-brain" style="color: var(--accent-color);"></i> Mathematical Neuroscience & Neurodegenerative Diseases</h3>
+            <p>A significant portion of my current research involves the mathematical and computational modeling of neurodegenerative disorders, primarily Alzheimer's and Parkinson's diseases. I investigate the complex dynamics of toxic protein propagation (such as amyloid-beta) and the dual role of astrocytes in disease development. Through multiscale co-simulation and large-scale brain network models, my work aims to capture the nonequilibrium landscapes of calcium ions and proteins to better understand pathology dynamics and evaluate potential anti-amyloid-beta therapies.</p>
+            <div class="research-tags">
+                <span class="tag">Alzheimer's Disease</span>
+                <span class="tag">Parkinson's Disease</span>
+                <span class="tag">Neural-Glial Dynamics</span>
+                <span class="tag">Network Models</span>
+            </div>
+            <a href="https://example.com">
+            <img src="Figt3.png" alt="Description of image" style="width:600px;height:320px;">
+            <span>Clickable Link Text</span>
+            </a>
+
+        </div>
+
+        <div class="research-topic">
+            <h3><i class="fas fa-leaf" style="color: var(--accent-color);"></i> Mathematical Biology & Ecological Modeling</h3>
+            <p>Building upon my doctoral thesis on the <em>Effects of Nonlocal Interaction on Spatio-Temporal Pattern Formation</em>, I develop and analyze ecological models such as predator-prey systems. My research explores how spatial and temporal nonlocality, fear effects, and resource consumption influence population distributions. I am also investigating the dynamics of sustainable semiarid ecosystems and analyzing pattern alternations induced by nonlocal intraspecific competitions using reaction-diffusion frameworks.</p>
+            <div class="research-tags">
+                <span class="tag">Reaction-Diffusion Systems</span>
+                <span class="tag">Predator-Prey Models</span>
+                <span class="tag">Spatio-Temporal Patterns</span>
+                <span class="tag">Nonlocal Interactions</span>
+            </div>
+        </div>
+
+        <div class="research-topic">
+            <h3><i class="fas fa-laptop-code" style="color: var(--accent-color);"></i> Computational Mathematics & Machine Learning</h3>
+            <p>To solve complex nonlinear dynamical systems, I leverage advanced computational techniques. My recent work incorporates Scientific Machine Learning, specifically Physics-Informed Neural Networks (PINNs), to detect critical transitions in complex systems and model adaptive anti-tau treatments based on Bayesian approaches. Furthermore, I implement robust numerical solutions for ODEs and PDEs using parallel computing architectures.</p>
+            <div class="research-tags">
+                <span class="tag">Physics-Informed Neural Networks (PINNs)</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Numerical ODEs/PDEs</span>
+                <span class="tag">Nonlinear Dynamics</span>
+            </div>
+        </div>
+
+        <h3>Reviewer</h3>
+        <ul>
+            <li>Proceedings of the Royal Society A</li>
+            <li>Bulletin of Mathematical Biology</li>
+            <li>Physical Review E</li>
+            <li>The European Physical Journal Plus</li>
+            <li>Studies in Applied Mathematics </li>
+            <li>Mathematical Biosciences</li>
+            <li>Mathematical Biosciences and Engineering</li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Swadesh Pal. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>

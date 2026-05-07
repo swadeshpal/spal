@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swadesh Pal - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Shared CSS for all pages */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --border-color: #e0e0e0;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: var(--text-color); background-color: var(--bg-color); }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 30px; margin-bottom: 30px; margin-top: 20px; }
+        .profile-pic { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent-color); }
+        .header-info h1 { margin: 0 0 10px 0; color: var(--primary-color); font-size: 2.5em; }
+        .header-info h2 { margin: 0 0 15px 0; color: var(--secondary-color); font-size: 1.2em; font-weight: 500; }
+        .contact-info { list-style: none; padding: 0; margin: 0; }
+        .contact-info li { margin-bottom: 8px; color: #555; }
+        .contact-info i { color: var(--accent-color); width: 25px; }
+        .social-links { margin-top: 15px; }
+        .social-links a { color: var(--primary-color); font-size: 1.5em; margin-right: 15px; transition: color 0.3s; }
+        .social-links a:hover { color: var(--accent-color); }
+        section { background-color: white; padding: 30px 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        section h2 { color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px; }
+        h3 { color: var(--secondary-color); margin-top: 25px; margin-bottom: 10px; }
+        .nav-buttons { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; background: white; padding: 15px; border-radius: 10px; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .btn { display: inline-block; padding: 10px 20px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .btn:hover, .btn.active { background-color: var(--accent-color); }
+        footer { text-align: center; padding: 20px; color: #666; margin-top: 40px; border-top: 1px solid var(--border-color); }
+        @media (max-width: 768px) { header { flex-direction: column; text-align: center; } .nav-buttons { justify-content: center; } section { padding: 20px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="nav-buttons">
+        <a href="index.html" class="btn active"><i class="fas fa-user"></i> Home</a>
+        <a href="experience.html" class="btn"><i class="fas fa-briefcase"></i> Experience & Education</a>
+        <a href="research.html" class="btn"><i class="fas fa-microscope"></i> Research</a>
+        <a href="publications.html" class="btn"><i class="fas fa-book"></i> Publications</a>
+        <a href="presentations.html" class="btn"><i class="fas fa-chalkboard-teacher"></i> Presentations</a>
+      </div>
+
+    <header>
+        <img src="image.jpg?text=Swadesh+Pal" alt="Swadesh Pal" class="profile-pic">
+        <div class="header-info">
+            <h1>Swadesh Pal</h1>
+            <h2>Assistant Professor, SRM University, Kattankulathur</h2>
+            <ul class="contact-info">
+                <li><i class="fas fa-map-marker-alt"></i> UB921, University Building, Chennai, 603203, India</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:palkkeswadesh@gmail.com">palkkeswadesh@gmail.com</a>, <a href="mailto:swadeshp@srmist.edu.in">swadeshp@srmist.edu.in</a></li>
+                <li><i class="fas fa-phone"></i> (+91) 9455013132</li>
+            </ul>
+            <div class="social-links">
+                <a href="https://scholar.google.co.in/citations?user=hMNDqA8AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.researchgate.net/profile/Swadesh-Pal-2" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                <a href="https://github.com/swadeshpal" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/swadesh-pal-42615254/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+    </header>
+    
+    <section>
+        <h2><i class="fas fa-info-circle"></i> About Me</h2>
+        <p>I am an Assistant Professor in the Department of Mathematics at SRM University. Prior to this, I completed my Ph.D. in Mathematics at the Indian Institute of Technology Kanpur (IIT Kanpur), India, where my thesis focused on the <em>"Effects of Nonlocal Interaction on Spatio-Temporal Pattern Formation"</em>.</p>
+        
+        <h3>Research Interests & Skills</h3>
+        <ul>
+            <li><strong>Research Interests:</strong> Numerical Solutions for ODEs and PDEs, Nonlinear Dynamics, Machine Learning, Physics-Informed Neural Networks, Reaction-Diffusion Systems, Network Models, Neurodegenerative Diseases.</li>
+            <li><strong>Programming Skills:</strong> Matlab, C, Python, Parallel Computing (MPI and OpenMP), Maple, Matcont.</li>
+        </ul>
+
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Swadesh Pal. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
